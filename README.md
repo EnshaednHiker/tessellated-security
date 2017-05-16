@@ -12,5 +12,6 @@ For the DYI security afficionado, all inclusive code to run a server (Node/Expre
 ## Commandline Package
 [Commandline package code to be installed onto a tessel](https://github.com/EnshaednHiker/tessellated-security-command-line-package) The package must be installed with npm.
 
+## Tutorial to set up your tessel
 
 
