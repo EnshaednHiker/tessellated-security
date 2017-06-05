@@ -46,11 +46,41 @@ Note: the wires from the magnetic switch fit very loosely into the tessel, so yo
  
 ### 4. Push code to tessel with the NPM package via command line commands
 
+Watch the video from 3:21-5:26 for a comprehensive walthrough on how to push the code to the tessel
 
+#### Install
+
+```bash
+npm install -g tessellated-security
+```
+
+#### Usage
+an npm package to install software from the command line onto a tessel 2 for the Tessellated Security service
+
+1. Make sure you are using the LTS version of Node/npm package manager. That can be found [here](https://nodejs.org/en/).
+
+2. Go to the command line utility on your computer. I am a fan of [cmder](http://cmder.net/) if you're on a Windows computer but the Command Prompt program will work fine too. If you're on Mac or Linux machine, you are on your own.
+
+3. Before installing the files on your tessel, you will need to set it up. Read all through steps 0, 1, and 2 [here](https://tessel.github.io/t2-start/), and do steps 1 and 2.  This package depends on you already having installed the tessel CLI via `npm install -g t2-cli` in the command line.  This system also requires that your tessel have access to the internet, so make sure you follow the instructions in step 2 on how to set up wifi on your tessel. NOTE: I had a weird wifi setup with a poorly set up DSL modem and router, and did a ton of reading up on stack overflow and tessel developer communities only to realize that the problem was not the tessel and was in fact my weird internet setup. Simply by upgrading to the [NETGEAR Nighthawk AC1900 Wi-Fi VDSL/ADSL Modem Router](https://www.amazon.com/gp/product/B0111MRL4S/ref=oh_aui_search_detailpage?ie=UTF8&psc=1) for Centurylink DSL internet, I totally fixed my problem. FYI in case someone else has a similar problem with setting up their wifi on their tessel.
+
+4. Go into your command line program of choice and type `npm install -g tessellated-security` and hit enter. This installs the package globally, meaning you don't have to know where package files are in your system in order to access them.
+
+5. Go to the [Tessellated Security website](https://enshaednhiker.github.io/tessellated-security-webclient/) and create an account. Click the 'Register' tab in the navigation bar, enter your information, and click the submit button. On your account page, enter the name of your device and hit enter. Most likely you will want to name it something that connotes which door it is guarding i.e. backdoor, garage door, front door, etc. When you receive alerts from the tessel whenever the door opens, whatever you named your tessel clues you in as to which door opened. On your account page with the tessel device added to your account, copy the entire token to your clipboard.
+
+6. With your tessel plugged in via usb to your computer, type `tessellated-security` in your command line program and hit enter. You will then be prompted to enter a token. Paste in your token you copied from your account page on the Tessellated Security website.  Hit enter.  Your tessel will then take about 2 to 3 minutes to get set up on and push over the files to make the system work. Once the process is over, you can unplug your tessel from your computer and install it on your door of choice. Now, whenever that tessel is connected to power and wifi, your security system will run, and you will receive emails noting each time that door opens/whenever the magnet separates. 
 
 ### 5. Install tessel onto a door
 
-### 6. Video Tutorial and Demo of the the system in action
+The magnetic switch I've listed in the spec sheet works but is flimsy and made of plastic. In a more polished product, a sturdier switch would need to be used.  Given that this is a DIY project for enjoyment and your own personal fun, I don't recommend that you use the screws to screw this switch onto an actual door. Some kind of command strips from 3M would probably be more appropriate. The magnetic switch itself comes with tape on its back, but that's obviously only a one-time use. 
+
+### 6. Potential ideas for using this service:
+
+1. Put it on your fridge you keep your treasured snacks safe.
+2. Put it on your front door to know when your kids get home from school.
+3. Put it on your garage door (if your wifi reaches that far) to know when your significant other comes home.
+4. And anything else you can think of!
+
+### 7. Video Tutorial and Demo of the the system in action
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=IHuYJmVRc1I
 " target="_blank"><img src="http://img.youtube.com/vi/IHuYJmVRc1I/0.jpg" 
