@@ -46,6 +46,8 @@ Note: the wires from the magnetic switch fit very loosely into the tessel, so yo
  
 ### 4. Push code to tessel with the NPM package via command line commands
 
+
+
 ### 5. Install tessel onto a door
 
 ### 6. Video Tutorial and Demo of the the system in action
