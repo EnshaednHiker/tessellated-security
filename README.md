@@ -55,7 +55,6 @@ npm install -g tessellated-security
 ```
 
 #### Usage
-an npm package to install software from the command line onto a tessel 2 for the Tessellated Security service
 
 1. Make sure you are using the LTS version of Node/npm package manager. That can be found [here](https://nodejs.org/en/).
 
