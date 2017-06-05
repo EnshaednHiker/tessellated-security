@@ -10,11 +10,16 @@ The server at this time is currently hosted on Heroku. I used CircleCI for conti
 [Live website for the service.](https://enshaednhiker.github.io/tessellated-security-webclient/) [Github Repo for the client website used to sign up for the service.](https://github.com/EnshaednHiker/tessellated-security-webclient) I used webpack and director as the two chief technologies to make this site.   
 
 ## Commandline Package
-[Commandline package code to be installed onto a tessel](https://github.com/EnshaednHiker/tessellated-security-command-line-package) The package must be installed with npm. I wrote the command line package in node and [published it NPM](https://www.npmjs.com/package/tessellated-security).
+[Commandline package Github Repo for code to be installed onto a tessel](https://github.com/EnshaednHiker/tessellated-security-command-line-package). I wrote the command line package in node and [published it to NPM](https://www.npmjs.com/package/tessellated-security). As of now, the the only way to get the code on to the tessel is through this npm package. 
 
 ## Tutorial
 
 ### 1. Spec sheet - gathering the parts you'll need
+
+1. [Tessel](https://www.sparkfun.com/products/13841?ref=tessel.io)
+2. [Magnetic Switch](https://www.sparkfun.com/products/13247)
+3. [USB micro-B cable](https://www.sparkfun.com/products/10215) (NOTE: most charging cables that come with Androide smartphones, so you  might not need to purchase one of these)
+4. [USB Power Adapter](https://www.sparkfun.com/products/11456)
 
 ### 2. Assembly - putting together the tessel
 
