@@ -54,7 +54,7 @@ Note: the wires from the magnetic switch fit very loosely into the tessel, so yo
 " target="_blank"><img src="http://img.youtube.com/vi/IHuYJmVRc1I/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-0:00-2:30 shows how to use the website
-2:31-3:20 shows how to assemble the tessel
-3:21-5:26 shows how to put the code onto the tessel with the command line commands via npm
-5:27-6:38 shows a basic demo of the device working
+1. 0:00-2:30 shows how to use the website
+2. 2:31-3:20 shows how to assemble the tessel
+3. 3:21-5:26 shows how to put the code onto the tessel with the command line commands via npm
+4. 5:27-6:38 shows a basic demo of the device working
