@@ -18,7 +18,7 @@ The server at this time is currently hosted on Heroku. I used CircleCI for conti
 
 1. [Tessel](https://www.sparkfun.com/products/13841?ref=tessel.io)
 2. [Magnetic Switch](https://www.sparkfun.com/products/13247)
-3. [USB micro-B cable](https://www.sparkfun.com/products/10215) (NOTE: most charging cables that come with Androide smartphones, so you  might not need to purchase one of these)
+3. [USB micro-B cable](https://www.sparkfun.com/products/10215) (NOTE: most charging cables that come with Android smartphones are USB micro-B cables, so you  might not need to purchase one of these)
 4. [USB Power Adapter](https://www.sparkfun.com/products/11456)
 
 ### 2. Assembly - putting together the tessel
