@@ -89,3 +89,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 2. 2:31-3:20 shows how to assemble the tessel
 3. 3:21-5:26 shows how to put the code onto the tessel with the command line commands via npm
 4. 5:27-6:38 shows a basic demo of the device working
+
+## License
+
+[MIT](http://vjpr.mit-license.org)
