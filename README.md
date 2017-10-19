@@ -88,7 +88,7 @@ The magnetic switch I've listed in the spec sheet works but is flimsy and made o
 
 ### 7. Video Tutorial and Demo of the the system in action
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RgxG61hzV68" frameborder="0" allowfullscreen></iframe>
+<a width="560" height="315" src="https://www.youtube.com/embed/RgxG61hzV68" frameborder="0" allowfullscreen></a>
 
 1. 0:00-2:50 shows how to use the website
 2. 2:51-3:40 shows how to assemble the tessel
