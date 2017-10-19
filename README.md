@@ -6,8 +6,8 @@ For the DYI security afficionado, all inclusive code to run a server (Node/Expre
 This project containts three parts:
 
 1. [Server](https://github.com/EnshaednHiker/tessellated-security-server)
-2. [Command-line Package](https://github.com/EnshaednHiker/tessellated-security-command-line-package)
-3. [Website (repo)](https://github.com/EnshaednHiker/tessellated-security-webclient)/[Live site](https://enshaednhiker.github.io/tessellated-security-webclient/) 
+2. [Website (repo)](https://github.com/EnshaednHiker/tessellated-security-webclient)/[Live site](https://enshaednhiker.github.io/tessellated-security-webclient/) 
+3. [Command-line Package](https://github.com/EnshaednHiker/tessellated-security-command-line-package)
 
 
 ## Server
