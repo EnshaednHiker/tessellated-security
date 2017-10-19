@@ -3,13 +3,20 @@ Tessellated Security is an end-to-end service to take your own tessel 2 and a ma
 
 For the DYI security afficionado, all inclusive code to run a server (Node/Express), webclient, database (MongoDB/Mongoose), and a [tessel](https://tessel.io/) hooked up to a [magnetic door switch](https://www.sparkfun.com/products/13247). A detailed spec sheet of all of the parts used is below along with detailed instructions on how to put what where.  The project's server running here is hosted on Heroku while the database is on mLab. Below is an explanation about setting up your own tessel.
 
+This project containts three parts:
+
+1. [Server](https://github.com/EnshaednHiker/tessellated-security-server)
+2. [Command-line Package](https://github.com/EnshaednHiker/tessellated-security-command-line-package)
+3. [Website (repo)](https://github.com/EnshaednHiker/tessellated-security-webclient)/[Live site](https://enshaednhiker.github.io/tessellated-security-webclient/) 
+
+
 ## Server
 The server at this time is currently hosted on Heroku. I used CircleCI for continuous integration testing. [Github repo for the server API for the service.](https://github.com/EnshaednHiker/tessellated-security-server) The database for the data layer is hosted on mLab
 
 ## Webclient
 [Live website for the service.](https://enshaednhiker.github.io/tessellated-security-webclient/) [Github Repo for the client website used to sign up for the service.](https://github.com/EnshaednHiker/tessellated-security-webclient) I used webpack and director as the two chief technologies to make this site.   
 
-## Commandline Package
+## Command-line Package
 [Commandline package Github Repo for code to be installed onto a tessel](https://github.com/EnshaednHiker/tessellated-security-command-line-package). I wrote the command line package in node and [published it to NPM](https://www.npmjs.com/package/tessellated-security). As of now, the the only way to get the code on to the tessel is through this npm package. 
 
 ## Tutorial
